@@ -23,8 +23,8 @@ A simple ATM simulator that allows you to update your account balance by making 
 - HTML
 
 ## Future Updates:
-[-] Improve overdraft function
-    - Currently, a warning is displayed to let user know the withdrawal amount cannot be more than the current balance. However, closing this alert refreshes the page and sets account balance back to $0.
+[-] Improve overdraft function</br>
+    - Currently, a warning is displayed to let user know the withdrawal amount cannot be more than the current balance. However, closing this alert refreshes the page and sets account balance back to $0.</br>
     - Future improvements will ensure the account balance remains the same and user is able to try again with a different amount.
 
 ## Author:
