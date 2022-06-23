@@ -1,0 +1,56 @@
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <title>ATM Machine</title>
+  <!-- Don't use this in production: -->
+  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+  <!-- ----------------- Bootstrap header START ----------------- -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
+  <style>
+    body {
+      font-family: 'Courier New', Courier, monospace;
+      background-color: aliceblue;
+      margin-left: 30px;
+    }
+    button {
+      border-radius: 10px;
+      width: 150px;
+      font-family: 'Courier New', Courier, monospace;
+      margin-right: 10px;
+      margin-bottom: 20px;
+      margin-top: 20px;
+    }
+    #deposit {
+      background-color:darkseagreen ;
+      border: 1px solid black;
+    }
+    #withdrawal {
+      background-color:indianred ;
+      border: 1px solid black;
+    }
+    #number {
+      margin-right: 10px;
+    }
+    #submit {
+      background-color:gainsboro ;
+      border: 1px solid black;
+      border-radius: 10px;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>ATM Machine</h1>
+  <!-- We will put our React component inside this div. -->
+  <div id="root"></div>
+  <!-- Load React. -->
+  <script src="https://unpkg.com/react/umd/react.development.js" crossorigin></script>
+  <script src="https://unpkg.com/react-dom/umd/react-dom.development.js" crossorigin></script>
+  <!-- Load our React component. -->
+
+  <script src="solutionStage3.jsx" defer type="text/babel"></script>
+</body>
+
+</html>
